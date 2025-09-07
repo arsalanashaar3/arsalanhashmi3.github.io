@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Search Algorithms - Arsalan Hashmi</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="search.js" defer></script>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Searching Algorithms</h1>
+        </header>
+        <main>
+            <p>Type in a list of things (numbers, names, places etc.) separated by commas (e.g., 1,2,3,4,5).</p>
+            <input type="text" id="numberList" placeholder="Enter numbers">
+            <button id="submitButton">Submit</button>
+            <div id="arrayContainer"></div>
+            <p>Type in the item you want the index for.</p>
+            <input type="text" id="itemToFind" placeholder="Enter item to find">
+            <select id="searchMethod">
+                <option value="linear">Linear Search</option>
+            </select>
+            <button id="findButton">Find</button>
+            <div id="result" style="padding-top: 2em;"></div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Arsalan Hashmi</p>
+        </footer>
+    </body>
+</html>
